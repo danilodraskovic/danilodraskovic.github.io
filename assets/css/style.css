@@ -115,7 +115,7 @@ nav ul li:hover {
 	margin-bottom: 30px;
 	animation: slideInLeft2 0.8s ease;
 }
-.heading h2 {
+.heading h2, .heading h1 {
 	margin: auto 20px;
 	color: #333;
 	font-size: 42px;
