@@ -17,13 +17,24 @@ h1, h2, h3 {
 a {
 	text-decoration: none;
 }
+#landing, #firstImgBox, #secondImgBox {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.wrapper, .txtBox, .imgBox, .heading, footer {
+	display: flex;
+	align-items: center;
+}
+header, #secondTxtBox, footer, #info {
+	background-color: #0D0F0C;
+}
 header {
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100px;
-	background-color: #0D0F0C;
 }
 .cleaner {
 	clear: both;
@@ -81,9 +92,6 @@ nav ul li:hover {
 #landing {
 	height: 600px;
 	background: url(../img/image1.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
 	margin-top: 100px;
 	text-align: center;
 	animation: opacity 0.8s ease-in-out;
@@ -96,20 +104,14 @@ nav ul li:hover {
 }
 .wrapper {
 	height: 600px;
-	display: flex;
-	align-items: center;
 }
 .txtBox, .imgBox {
 	width: 50%;
 	height: 100%;
-	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	align-items: center;
 }
 .heading {
-	display: flex;
-	align-items: center;
 	margin-bottom: 30px;
 	animation: slideInLeft2 0.8s ease;
 }
@@ -137,13 +139,9 @@ nav ul li:hover {
 }
 #firstImgBox {
 	background: url(../img/image2.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
 	animation: opacity 0.8s ease-in-out;
 }
 #secondTxtBox {
-	background-color: #0D0F0C;
 	align-items: flex-start;
 	padding-left: 95px;
 }
@@ -171,9 +169,6 @@ nav ul li:hover {
 }
 #secondImgBox {
 	background: url(../img/image3.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 #songsWrapper {
 	flex-direction: column;
@@ -226,17 +221,8 @@ nav ul li:hover {
 	background-color: #0D0F0C;
 	color: #FFF;
 }
-.wrapper:nth-child(6) {
-	background: url(../img/pexels-luis-quintero-1370545.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
 footer {
 	height: 425px;
-	background-color: #0D0F0C;
-	display: flex;
-	align-items: center;
 	flex-direction: column;
 }
 .fa-long-arrow-alt-up {
@@ -367,7 +353,6 @@ footer .fab, footer .fas {
 }
 #info {
 	width: 40%;
-	background-color: #0D0F0C;
 	color: #FFF;
 	height: 550px;
 	box-shadow: 5px 10px 18px #888888;
