@@ -69,7 +69,7 @@ body {
   }
   #section2 h2, #section3 h2, #section4 h2, #section5 h2, #section6 h2 {
     font-size: 25px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #section3 h2, #section4 h2, #section5 h2, #section6 h2 {
     margin-bottom: 20px;
@@ -134,7 +134,7 @@ body {
         justify-content: space-around;
   }
   .nav li a {
-    color: #e6d5b8;
+    color: #FFF;
     font-weight: 300;
     font-size: 16px;
     -webkit-transition: .3s;
@@ -146,7 +146,7 @@ body {
   #intro {
     width: 80%;
     border-left: 1px solid #FEBD69;
-    color: #e6d5b8;
+    color: #FFF;
     margin-left: 20px;
     padding-left: 15px;
     margin-top: 15vh;
@@ -163,7 +163,7 @@ body {
   }
   #intro a {
     font-size: 18px;
-    color: #e6d5b8;
+    color: #FFF;
     font-weight: 300;
     padding: 10px 20px;
     border-radius: 20px;
@@ -184,7 +184,7 @@ body {
     font-weight: 400;
     margin-top: 20px;
     font-size: 16px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #section2 p:nth-child(3) {
     font-weight: 300;
@@ -234,7 +234,7 @@ body {
   }
   #section3 p:nth-child(2) {
     margin-bottom: 50px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #section3 .container {
     -webkit-box-orient: horizontal;
@@ -267,14 +267,14 @@ body {
   .serviceBox h3 {
     margin-bottom: 20px;
     font-size: 20px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   .serviceBox p {
-    color: #e6d5b8;
+    color: #FFF;
   }
   /*SECTION 4 */
   #skillsParagraph {
-    color: #e6d5b8;
+    color: #FFF;
   }
   .skillTitle {
     display: -webkit-box;
@@ -283,7 +283,7 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #section4 form {
     width: 100%;
@@ -322,7 +322,7 @@ body {
         flex-wrap: wrap;
   }
   #section5 #projects {
-    color: #e6d5b8;
+    color: #FFF;
     margin-bottom: 50px;
   }
   .portfolioBox {
@@ -387,7 +387,7 @@ body {
   }
   /*SECTION 6 */
   #section6 #contactParagraph {
-    color: #e6d5b8;
+    color: #FFF;
   }
   #contactForm {
     background-color: #232F3E;
@@ -412,7 +412,7 @@ body {
   #contactForm p {
     text-align: left;
     font-weight: 300;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #getInTouch {
     width: 50%;
@@ -421,14 +421,14 @@ body {
   #getInTouch h3 {
     margin-bottom: 20px;
     font-size: 16px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #saySomething {
     width: 50%;
   }
   #saySomething h3 {
     font-size: 16px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #saySomething form {
     width: 100%;
@@ -556,7 +556,7 @@ body {
   }
   #section2 h2, #section3 h2, #section4 h2, #section5 h2, #section6 h2 {
     font-size: 25px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #section3 h2, #section4 h2, #section5 h2, #section6 h2 {
     margin-bottom: 20px;
@@ -621,7 +621,7 @@ body {
         justify-content: space-around;
   }
   .nav li a {
-    color: #e6d5b8;
+    color: #FFF;
     font-weight: 300;
     font-size: 16px;
     -webkit-transition: .3s;
@@ -633,7 +633,7 @@ body {
   #intro {
     width: 80%;
     border-left: 1px solid #FEBD69;
-    color: #e6d5b8;
+    color: #FFF;
     margin-left: 20px;
     padding-left: 15px;
     margin-top: 15vh;
@@ -650,7 +650,7 @@ body {
   }
   #intro a {
     font-size: 18px;
-    color: #e6d5b8;
+    color: #FFF;
     font-weight: 300;
     padding: 10px 20px;
     border-radius: 20px;
@@ -671,7 +671,7 @@ body {
     font-weight: 400;
     margin-top: 20px;
     font-size: 16px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #section2 p:nth-child(3) {
     font-weight: 300;
@@ -706,7 +706,7 @@ body {
   }
   #section3 p:nth-child(2) {
     margin-bottom: 50px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #section3 .container {
     -webkit-box-orient: horizontal;
@@ -738,14 +738,14 @@ body {
   .serviceBox i, .serviceBox h3 {
     margin-bottom: 20px;
     font-size: 20px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   .serviceBox p {
-    color: #e6d5b8;
+    color: #FFF;
   }
   /*SECTION 4 */
   #skillsParagraph {
-    color: #e6d5b8;
+    color: #FFF;
   }
   .skillTitle {
     display: -webkit-box;
@@ -754,7 +754,7 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #section4 form {
     width: 100%;
@@ -793,7 +793,7 @@ body {
         flex-wrap: wrap;
   }
   #section5 #projects {
-    color: #e6d5b8;
+    color: #FFF;
     margin-bottom: 50px;
   }
   .portfolioBox {
@@ -858,7 +858,7 @@ body {
   }
   /*SECTION 6 */
   #section6 #contactParagraph {
-    color: #e6d5b8;
+    color: #FFF;
   }
   #contactForm {
     background-color: #232F3E;
@@ -883,7 +883,7 @@ body {
   #contactForm p {
     text-align: left;
     font-weight: 300;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #getInTouch {
     width: 50%;
@@ -892,14 +892,14 @@ body {
   #getInTouch h3 {
     margin-bottom: 20px;
     font-size: 16px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #saySomething {
     width: 50%;
   }
   #saySomething h3 {
     font-size: 16px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #saySomething form {
     width: 100%;
@@ -1027,7 +1027,7 @@ body {
   }
   #section2 h2, #section3 h2, #section4 h2, #section5 h2, #section6 h2 {
     font-size: 25px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #section3 h2, #section4 h2, #section5 h2, #section6 h2 {
     margin-bottom: 20px;
@@ -1090,14 +1090,14 @@ body {
         justify-content: space-around;
   }
   .nav li a {
-    color: #e6d5b8;
+    color: #FFF;
     font-weight: 300;
     font-size: 16px;
   }
   #intro {
     width: 80%;
     border-left: 1px solid #FEBD69;
-    color: #e6d5b8;
+    color: #FFF;
     margin-left: 20px;
     padding-left: 15px;
     margin-top: 15vh;
@@ -1114,7 +1114,7 @@ body {
   }
   #intro a {
     font-size: 18px;
-    color: #e6d5b8;
+    color: #FFF;
     font-weight: 300;
     padding: 10px 20px;
     border-radius: 20px;
@@ -1129,7 +1129,7 @@ body {
     font-weight: 400;
     margin-top: 20px;
     font-size: 16px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #section2 p:nth-child(3) {
     font-weight: 300;
@@ -1155,7 +1155,7 @@ body {
   }
   #section3 p:nth-child(2) {
     margin-bottom: 50px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #section3 .container {
     -webkit-box-orient: horizontal;
@@ -1186,14 +1186,14 @@ body {
   .serviceBox i, .serviceBox h3 {
     margin-bottom: 20px;
     font-size: 20px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   .serviceBox p {
-    color: #e6d5b8;
+    color: #FFF;
   }
   /*SECTION 4 */
   #skillsParagraph {
-    color: #e6d5b8;
+    color: #FFF;
   }
   .skillTitle {
     display: -webkit-box;
@@ -1202,7 +1202,7 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #section4 form {
     width: 100%;
@@ -1233,7 +1233,7 @@ body {
     background-color: #131A22;
   }
   #section5 #projects {
-    color: #e6d5b8;
+    color: #FFF;
     margin-bottom: 50px;
   }
   .portfolioBox {
@@ -1298,7 +1298,7 @@ body {
   }
   /*SECTION 6 */
   #section6 #contactParagraph {
-    color: #e6d5b8;
+    color: #FFF;
   }
   #contactForm {
     background-color: #232F3E;
@@ -1320,16 +1320,16 @@ body {
   #contactForm p {
     text-align: left;
     font-weight: 300;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #getInTouch h3 {
     margin-bottom: 20px;
     font-size: 16px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #saySomething h3 {
     font-size: 16px;
-    color: #e6d5b8;
+    color: #FFF;
   }
   #saySomething form {
     width: 100%;
@@ -1653,7 +1653,7 @@ body {
     background-color: #131A22;
   }
   #section5 #projects {
-    color: #e6d5b8;
+    color: #FFF;
     margin-bottom: 50px;
   }
   .portfolioBox {
