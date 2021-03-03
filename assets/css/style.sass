@@ -7,6 +7,26 @@ $secondary: #232F3E
 $accent: #FEBD69
 
 
+.come-in 
+  transform: translateY(400px);
+  animation: come-in 1s ease forwards;
+  -webkit-animation: come-in 1s ease forwards;
+
+.already-visible
+  transform: translateY(0);
+  animation: none;
+
+
+  
+@keyframes come-in 
+  to { transform: translateY(0); }
+
+
+@-webkit-keyframes come-in 
+  to { transform: translateY(0); }
+
+
+
 *
   margin: 0
   padding: 0
@@ -238,7 +258,7 @@ body
       flex-direction: row
       flex-wrap: wrap
 
-    p
+    #projects
       color: #e6d5b8
       margin-bottom: 50px
 
@@ -249,22 +269,44 @@ body
     margin-bottom: 20px
     border-radius: 10px
     display: flex
-    align-items: flex-end
-    background-color: $secondary
+    flex-direction: column
+    justify-content: center
+    align-items: center
     &:nth-child(1)
       margin-right: 20px
       background: url("../img/Image 001.jpg")
+      background-color: rgba(0, 0, 0, .5)
+      background-blend-mode: multiply
       background-size: cover
     &:nth-child(2)
       background: url("../img/Image 002.jpg")
+      background-color: rgba(0, 0, 0, .5)
+      background-blend-mode: multiply
       background-size: cover
     &:nth-child(3)
       margin-right: 20px
       background: url("../img/Image 003.jpg")
+      background-color: rgba(0, 0, 0, .5)
+      background-blend-mode: multiply
       background-size: cover
     &:nth-child(4)
-      background: url("../img/Image 001.jpg")
+      background: url("../img/Image 004.jpg")
+      background-color: rgba(0, 0, 0, .5)
+      background-blend-mode: multiply
       background-size: cover
+    h4 
+      color: #FFF
+      font-size: 20px
+      margin-bottom: 10px
+    p 
+      font-size: 16px
+      margin-bottom: 0
+      color: #FFF
+      &:nth-child(3) 
+        font-style: italic
+        font-weight: lighter
+        margin-top: 20px
+        
       
       
 
@@ -348,9 +390,10 @@ body
     padding-bottom: 5vh
     .line 
       width: 70%
-      height: 2px
+      height: 1px
       background-color: $secondary
       margin-bottom: 50px
+      margin-top: 50px
     img 
       width: 50px
       margin-bottom: 20px
@@ -583,7 +626,7 @@ body
       flex-direction: row
       flex-wrap: wrap
 
-    p
+    #projects
       color: #e6d5b8
       margin-bottom: 50px
 
@@ -594,22 +637,43 @@ body
     margin-bottom: 20px
     border-radius: 10px
     display: flex
-    align-items: flex-end
-    background-color: $secondary
+    flex-direction: column
+    justify-content: center
+    align-items: center
     &:nth-child(1)
       margin-right: 20px
       background: url("../img/Image 001.jpg")
+      background-color: rgba(0, 0, 0, .5)
+      background-blend-mode: multiply
       background-size: cover
     &:nth-child(2)
       background: url("../img/Image 002.jpg")
+      background-color: rgba(0, 0, 0, .5)
+      background-blend-mode: multiply
       background-size: cover
     &:nth-child(3)
       margin-right: 20px
       background: url("../img/Image 003.jpg")
+      background-color: rgba(0, 0, 0, .5)
+      background-blend-mode: multiply
       background-size: cover
     &:nth-child(4)
-      background: url("../img/Image 001.jpg")
+      background: url("../img/Image 004.jpg")
+      background-color: rgba(0, 0, 0, .5)
+      background-blend-mode: multiply
       background-size: cover
+    h4 
+      color: #FFF
+      font-size: 20px
+      margin-bottom: 10px
+    p 
+      font-size: 16px
+      margin-bottom: 0
+      color: #FFF
+      &:nth-child(3) 
+        font-style: italic
+        font-weight: lighter
+        margin-top: 20px
       
       
 
@@ -693,9 +757,10 @@ body
     padding-bottom: 5vh
     .line 
       width: 70%
-      height: 2px
+      height: 1px
       background-color: $secondary
       margin-bottom: 50px
+      margin-top: 50px
     img 
       width: 50px
       margin-bottom: 20px
@@ -908,7 +973,7 @@ body
   #section5
     background-color: $primary
 
-    p
+    #projects
       color: #e6d5b8
       margin-bottom: 50px
 
@@ -919,22 +984,43 @@ body
     margin-bottom: 50px
     border-radius: 10px
     display: flex
-    align-items: flex-end
-    background-color: $secondary
+    flex-direction: column
+    justify-content: center
+    align-items: center
     &:nth-child(1)
       margin-right: 0
       background: url("../img/Image 001.jpg")
+      background-color: rgba(0, 0, 0, .5)
+      background-blend-mode: multiply
       background-size: cover
     &:nth-child(2)
       background: url("../img/Image 002.jpg")
+      background-color: rgba(0, 0, 0, .5)
+      background-blend-mode: multiply
       background-size: cover
     &:nth-child(3)
       margin-right: 0
       background: url("../img/Image 003.jpg")
+      background-color: rgba(0, 0, 0, .5)
+      background-blend-mode: multiply
       background-size: cover
     &:nth-child(4)
-      background: url("../img/Image 001.jpg")
+      background: url("../img/Image 004.jpg")
+      background-color: rgba(0, 0, 0, .5)
+      background-blend-mode: multiply
       background-size: cover
+    h4 
+      color: #FFF
+      font-size: 20px
+      margin-bottom: 10px
+    p 
+      font-size: 16px
+      margin-bottom: 0
+      color: #FFF
+      &:nth-child(3) 
+        font-style: italic
+        font-weight: lighter
+        margin-top: 20px
 
       
       
@@ -1014,9 +1100,10 @@ body
     padding-bottom: 5vh
     .line 
       width: 70%
-      height: 2px
+      height: 1px
       background-color: $secondary
       margin-bottom: 50px
+      margin-top: 50px
     img 
       width: 50px
       margin-bottom: 20px
@@ -1220,27 +1307,53 @@ body
   #section5
     background-color: $primary
 
+    #projects
+      color: #e6d5b8
+      margin-bottom: 50px
+
   .portfolioBox
     width: 100%
     height: 20vh
     margin-bottom: 50px
     border-radius: 10px
     display: flex
-    align-items: flex-end
+    flex-direction: column
+    justify-content: center
+    align-items: center
     &:nth-child(1)
       margin-right: 0
       background: url("../img/Image 001.jpg")
+      background-color: rgba(0, 0, 0, .5)
+      background-blend-mode: multiply
       background-size: cover
     &:nth-child(2)
       background: url("../img/Image 002.jpg")
+      background-color: rgba(0, 0, 0, .5)
+      background-blend-mode: multiply
       background-size: cover
     &:nth-child(3)
       margin-right: 0
       background: url("../img/Image 003.jpg")
+      background-color: rgba(0, 0, 0, .5)
+      background-blend-mode: multiply
       background-size: cover
     &:nth-child(4)
-      background: url("../img/Image 001.jpg")
+      background: url("../img/Image 004.jpg")
+      background-color: rgba(0, 0, 0, .5)
+      background-blend-mode: multiply
       background-size: cover
+    h4 
+      color: #FFF
+      font-size: 20px
+      margin-bottom: 10px
+    p 
+      font-size: 16px
+      margin-bottom: 0
+      color: #FFF
+      &:nth-child(3) 
+        font-style: italic
+        font-weight: lighter
+        margin-top: 20px
 
   /*SECTION 6
 
@@ -1310,9 +1423,10 @@ body
     padding-bottom: 5vh
     .line 
       width: 70%
-      height: 2px
+      height: 1px
       background-color: $secondary
       margin-bottom: 50px
+      margin-top: 50px
     img 
       width: 50px
       margin-bottom: 20px
