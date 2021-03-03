@@ -3,121 +3,172 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="author" content="Danilo Draskovic" />
-        <meta name="description" content="Russell Vitale, who goes by Russ, is an American hip-hop performer born in New Jersey." />
-        <meta name="keywords" content="rapper, Russ, Russell, Vitale, singer, performer" />
-        <title>Russell Vitale</title>
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-        <link rel="icon" href="assets/img/favicon.ico" />
+        <meta name="description" content="Portfolio website for a web developer Danilo Draskovic." />
+        <meta name="keywords" content="portfolio, web development, frontend, web design, programming" />
+        <title>Portfolio</title>
+        <script src="https://kit.fontawesome.com/db78232651.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href="assets/css/hamburgers.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="assets/css/min.css" />
+        <link rel="icon" href="assets/img/logo.ico" />
     </head>
     <body>
-        <header>
-            <div id="logo">
-                <a href="index.html"><img src="assets/img/logo.png" alt="Logo" /></a>
-            </div>
-            <nav>
+        <header id="header">
+            <button class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+            </button>
+            <nav class="nav">
+                <div id="logo">
+                    <a href="#header"><img src="assets/img/logo.png" alt="Logo" /></a>
+                </div>
                 <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="albums.html">Albums</a></li>
-                    <li><a href="author.html">Author</a></li>
+                    <li><a class="navLink" href="#section3">Services</a></li>
+                    <li><a class="navLink" href="#section4">Skills</a></li>
+                    <li><a class="navLink" href="#section5">Portfolio</a></li>
+                    <li><a class="navLink" href="#section6">Contact</a></li>
                 </ul>
             </nav>
-            <div class="cleaner"></div>
+            <div id="intro">
+                <p>Hello, my name is</p>
+                <h1>Danilo Draskovic</h1>
+                <p>I’m a web developer from Serbia. I’ll make your design come to life!</p>
+                <a href="#section2">Read more</a>
+            </div>
         </header>
-        <main>
-            <div id="landing">
-                <h1>Russell Vitale</h1>
-            </div>
-            <div class="wrapper">
-                <div id="firstTxtBox" class="txtBox">
-                    <div class="heading">
-                        <div class="line"></div>
-                        <h2>Intro</h2>
-                        <div class="line"></div>
-                    </div>
-                    <p>Luminous, emotive, effortlessly lyrical and always supremely refined, the music and performance of Russell Vitale, better known as Russ, have attracted an ever-growing audience over the last 5 years, whose diversity and devotion are without parallel. He has released a series of chart-topping albums, sells out the most prestigious concert halls across the country and routinely tops audience polls becoming an internet phenomenon. With a unique musical alchemy that draws on elements of hip-hop, pop and R&amp;B, he has become one of the most popular artists in the USA  </p>
+        <section id="section2">
+            <div class="container">
+                <div class="txt">
+                    <h2>I'm <span>Danilo Draskovic</span>.</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                    <a href="#section6">Contact me</a>
                 </div>
-                <div id="firstImgBox" class="imgBox"></div>
+                <img src="assets/img/svg1.png" alt="Code />"
             </div>
-            <div class="wrapper">
-                <div id="secondImgBox" class="imgBox"></div>
-                <div id="secondTxtBox" class="txtBox">
-                    <div class="heading">
-                        <div class="line"></div>
-                        <h2>Biography</h2>
-                        <div class="line"></div>
-                    </div>
-                    <p>Russ was born on September 26, 1992 in Secaucus, New Jersey. He is of Sicilian descent. Russ was born into an Sicilian-American family which included him and three other siblings. He lived in North Carolina and Kentucky in his childhood due to his father having to constantly relocate due to his career, before his family found a permanent home in Atlanta. Russ was taught to play guitar by his father, and over the years gradually learned how to play several instruments. He started writing raps in his notebook at 7 years old. He started making beats when he was 14, and was initially producing with his friend Bugus. He recorded his first song at 18 years old</p>
-                    <a href="about.html">Read more</a>
+        </section>
+        <section id="section3">
+            <h2>My <span>services</span>.</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <div class="container">
+                <div class="serviceBox">
+                    <i class="fas fa-file-code"></i>
+                    <h3>Web development</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                 </div>
-            </div>
-            <div id="songsWrapper" class="wrapper">
-                <div class="heading">
-                    <div class="line"></div>
-                    <h2>Most popular songs</h2>
-                    <div class="line"></div>
+                <div class="serviceBox">
+                    <i class="fas fa-palette"></i>
+                    <h3>Web design</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                 </div>
-                <div id="songs">
-                    <div class="box">
-                        <p>2015</p>
-                        <div class="boxLine"></div>
-                        <h3>"Losin control"</h3>
-                        <p>“Losin Control” is Russ' 49th single of 2015 and was released on November 9th, 2015. It also stands as Russ' most popular R&amp;B performance, proving that he is not only a rapper and producer.
-                        </p>
-                        <a href="https://www.youtube.com/watch?v=IdGIZjVWrzY" target="_blank">Listen</a>
-                    </div>
-                    <div class="box">
-                        <p>2015</p>
-                        <div class="boxLine"></div>
-                        <h3>“What they want”</h3>
-                        <p>“What They Want” is Russ' 37th single. The song is a response to labels—Russ is saying he’s better off without them. On January 2, 2016, a little over four months after being released, “What They Want” reached its first million plays.
-                        </p>
-                        <a href="https://www.youtube.com/watch?v=oorK4RPgZ8Q" target="_blank">Listen</a>
-                    </div>
-                    <div class="box">
-                        <p>2014</p>
-                        <div class="boxLine"></div>
-                        <h3>“Goodbye”</h3>
-                        <p>“Goodbye” is the reaction to Russ finding out about the extremely nasty type of a person his ex Paola Pretti was.
-                        </p>
-                        <a href="https://www.youtube.com/watch?v=nA0fXQDKyho" target="_blank">Listen</a>
-                    </div>
-                    <div class="box">
-                        <p>2017</p>
-                        <div class="boxLine"></div>
-                        <h3>“Ride slow”</h3>
-                        <p>With everything in Russ’s life speeding up and changing, he simply needs to “Ride Slow” for a bit. His ex-girlfriend is questioning his motives, when he really just wants to explore her mind.
-                        </p>
-                        <a href="https://www.youtube.com/watch?v=y78n5kVYqPo" target="_blank">Listen</a>
-                    </div>
+                <div class="serviceBox">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h3>Graphic design</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+                <div class="serviceBox">
+                    <i class="fas fa-camera"></i>
+                    <h3>Photography</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                 </div>
             </div>
-        </main>
+        </section>
+        <section id="section4">
+            <div class="container">
+                <div id="skillsText">
+                    <h2>My <span>skills and expertise</span>.</h2>
+                    <p id="skillsParagraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+                <form>
+                    <div class="skillTitle">
+                        <label for="progress">HTML</label>
+                        <p>90%</p>
+                    </div>
+                    <progress id="progress" value="90" max="100"></progress>
+                    <div class="skillTitle">
+                        <label for="progress2">CSS</label>
+                        <p>92%</p>
+                    </div>
+                    <progress id="progress2" value="92" max="100"></progress>
+                    <div class="skillTitle">
+                        <label for="progress3">SASS</label>
+                        <p>70%</p>
+                    </div>
+                    <progress id="progress3" value="70" max="100"></progress>
+                    <div class="skillTitle">
+                        <label for="progress4">JavaScript</label>
+                        <p>65%</p>
+                    </div>
+                    <progress id="progress4" value="65" max="100"></progress>
+                    <div class="skillTitle">
+                        <label for="progress5">React.js</label>
+                        <p>43%</p>
+                    </div>
+                    <progress id="progress5" value="43" max="100"></progress>
+                    <div class="skillTitle">
+                        <label for="progress6">jQuery</label>
+                        <p>56%</p>
+                    </div>
+                    <progress id="progress6" value="56" max="100"></progress>
+                </form>
+            </div>
+        </section>
+        <section id="section5">
+            <h2>My <span>Portfolio</span>.</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <div class="container">
+                <div class="portfolioBox">
+                </div>
+                <div class="portfolioBox">
+                </div>
+                <div class="portfolioBox">
+                </div>
+                <div class="portfolioBox">
+                </div>
+            </div>
+        </section>
+        <section id="section6">
+            <h2>Contact <span>me</span>.</h2>
+            <p id="contactParagraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <div id="contactForm">
+                <div class="container">
+                    <div id="getInTouch">
+                        <h3>Get in touch.</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries.</p>
+                        <div id="socials">
+                            <p><span><i class="far fa-envelope"></i></span>danilodraskovic23&#64;gmail.com</p>
+                            <p><span><i class="fab fa-instagram"></i></i></span>&#64;danilodraskovic</p>
+                           <p><span><i class="fab fa-facebook-f"></i></span>Danilo Draskovic</p>
+                        </div>
+                    </div>
+                    <div id="saySomething">
+                        <h3>Say something.</h3>
+                        <form method="POST" action="program.php">
+                            <input type="text" id="name" placeholder="Name" /><br />
+                            <input type="email" id="email" placeholder="Email" /><br />
+                            <input type="text" id="subject" placeholder="Subject" /><br />
+                            <textarea id="message" rows="4" cols="50" placeholder="Your message..."></textarea>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
         <footer>
-            <a href="#landing"><i class="fas fa-long-arrow-alt-up"></i></a>
-            <div id="footerLine"></div>
-            <div id="links">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="albums.html">Albums</a></li>
-                    <li><a href="author.html">Author</a></li>
-                </ul>
-                <ul>
-                    <li><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/russtheone/" target="_blank">Facebook</a></li>
-                    <li><i class="fab fa-twitter"></i><a href="https://twitter.com/russdiemon" target="_blank">Twitter</a></li>
-                    <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/russ/" target="_blank">Instagram</a></li>
-                    <li><i class="fab fa-youtube"></i><a href="https://www.youtube.com/channel/UCiIETTq2It3OzW8_WYRPTyQ" target="_blank">Youtube</a></li>
-                    <li><i class="fab fa-spotify"></i><a href="https://open.spotify.com/artist/1z7b1Pr1rSlvWRzsW3HOrS" target="_blank">Spotify</a></li>
-                    <li><i class="fab fa-deezer"></i><a href="https://www.deezer.com/en/artist/616943" target="_blank">Deezer</a></li>
-                    <li><i class="fas fa-rss"></i><a href="rss.xml" target="_blank">News</a></li>
-                </ul>
+            <div class="line"></div>
+            <img src="assets/img/logo.png" alt="Logo" />
+            <div id="connect">
+                <a href="https://www.instagram.com/danilodraskovic/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/danilo-dra%C5%A1kovi%C4%87-2281b31a7/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/danilodraskovix" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/danilodraskovic23" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="assets/xml/sitemap.xml" target="_blank"><i class="fas fa-sitemap"></i></a>
+                <a href="assets/css/style.sass" target="_blank"><i class="fab fa-sass"></i></a>
+                <a href="assets/css/style.css" target="_blank"><i class="fab fa-css3"></i></a>
             </div>
+            <p>&copy;Crafted by Danilo Draskovic 53/20</p>
         </footer>
+        <script src="assets/js/app.js"></script>
     </body>
 </html>
