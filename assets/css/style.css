@@ -411,26 +411,26 @@ body {
   .portfolioBox:nth-child(1) {
     margin-right: 20px;
     background: url("../img/Image 001.jpg");
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
     background-size: cover;
   }
   .portfolioBox:nth-child(2) {
     background: url("../img/Image 002.jpg");
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
     background-size: cover;
   }
   .portfolioBox:nth-child(3) {
     margin-right: 20px;
     background: url("../img/Image 003.jpg");
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
     background-size: cover;
   }
   .portfolioBox:nth-child(4) {
     background: url("../img/Image 004.jpg");
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
     background-size: cover;
   }
@@ -448,6 +448,17 @@ body {
     font-style: italic;
     font-weight: lighter;
     margin-top: 20px;
+  }
+  .portfolioBox a {
+    color: #FFF;
+    margin-top: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .portfolioBox a:hover {
+    color: #FEBD69;
   }
   /*SECTION 6 */
   #section6 #contactParagraph {
@@ -898,26 +909,26 @@ body {
   .portfolioBox:nth-child(1) {
     margin-right: 20px;
     background: url("../img/Image 001.jpg");
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
     background-size: cover;
   }
   .portfolioBox:nth-child(2) {
     background: url("../img/Image 002.jpg");
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
     background-size: cover;
   }
   .portfolioBox:nth-child(3) {
     margin-right: 20px;
     background: url("../img/Image 003.jpg");
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
     background-size: cover;
   }
   .portfolioBox:nth-child(4) {
     background: url("../img/Image 004.jpg");
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
     background-size: cover;
   }
@@ -935,6 +946,17 @@ body {
     font-style: italic;
     font-weight: lighter;
     margin-top: 20px;
+  }
+  .portfolioBox a {
+    color: #FFF;
+    margin-top: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .portfolioBox a:hover {
+    color: #FEBD69;
   }
   /*SECTION 6 */
   #section6 #contactParagraph {
@@ -1354,29 +1376,9 @@ body {
   }
   .portfolioBox:nth-child(1) {
     margin-right: 0;
-    background: url("../img/Image 001.jpg");
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: multiply;
-    background-size: cover;
-  }
-  .portfolioBox:nth-child(2) {
-    background: url("../img/Image 002.jpg");
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: multiply;
-    background-size: cover;
   }
   .portfolioBox:nth-child(3) {
     margin-right: 0;
-    background: url("../img/Image 003.jpg");
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: multiply;
-    background-size: cover;
-  }
-  .portfolioBox:nth-child(4) {
-    background: url("../img/Image 004.jpg");
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: multiply;
-    background-size: cover;
   }
   .portfolioBox h4 {
     color: #FFF;
